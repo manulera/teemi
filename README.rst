@@ -129,7 +129,7 @@ Let's take the example of creating a basic combinatorial library with the follow
 
 Our goal is to assemble a library of promoters and enzymes into a genome via in vivo assembly. 
 We already have a CRISPR plasmid; all we need to do is amplify the promoters and enzymes for the transformation. 
-This requires generating primers and making PCRs. We'll use teemi for this process.
+This requires generating primers and making PCRs. We'll use teemi for this process. The files to reproduce this tutorial can be found in `this repository <https://github.com/hiyama341/G8H_CPR_library>`_.
 
 To begin, we load the genetic parts using Teemi's easy-to-use function ``read_genbank_files()``, specifying the path to the genetic parts.
 
